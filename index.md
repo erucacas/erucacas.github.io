@@ -1,9 +1,9 @@
 ## Obelo Figura
 
-import java.awt.Color;
-import java.awt.Graphics;
+	import java.awt.Color;
+	import java.awt.Graphics;
 
-public class ObeloFigura {
+	public class ObeloFigura {
 	
 	protected int xIni,
 				  yIni, 
@@ -84,20 +84,20 @@ public class ObeloFigura {
 	}
 	
 
-}
+	}
 
 ## Panel Obelo
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import javax.swing.JColorChooser;
-import javax.swing.JPanel;
+	import java.awt.Color;
+	import java.awt.Dimension;
+	import java.awt.Graphics;
+	import java.awt.event.MouseEvent;
+	import java.awt.event.MouseListener;
+	import java.awt.event.MouseMotionListener;
+	import javax.swing.JColorChooser;
+	import javax.swing.JPanel;
 
-public class PanelObelo extends JPanel implements MouseListener, MouseMotionListener{
+	public class PanelObelo extends JPanel implements MouseListener, MouseMotionListener{
 
 	private ObeloFigura obelo;
 
@@ -169,16 +169,16 @@ public class PanelObelo extends JPanel implements MouseListener, MouseMotionList
 		
 	}
 		
-}
+	}
 
 
 ## Ventana Obelo
 
-import java.awt.BorderLayout;
+	import java.awt.BorderLayout;
 
-import javax.swing.JFrame;
+	import javax.swing.JFrame;
 
-public class VentanaObelo extends JFrame{
+	public class VentanaObelo extends JFrame{
 
 	public VentanaObelo(PanelObelo po) {
 		super("Obelo");
@@ -201,26 +201,26 @@ public class VentanaObelo extends JFrame{
 
 ## Panel Controles
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+	import java.awt.Color;
+	import java.awt.event.ActionEvent;
+	import java.awt.event.ActionListener;
+	import java.io.BufferedReader;
+	import java.io.FileNotFoundException;
+	import java.io.FileReader;
+	import java.io.FileWriter;
+	import java.io.IOException;
+	import java.io.PrintWriter;
 
-import javax.swing.JButton;
-import javax.swing.JPanel;
-import javax.swing.JSlider;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
+	import javax.swing.JButton;
+	import javax.swing.JPanel;
+	import javax.swing.JSlider;
+	import javax.swing.event.ChangeEvent;
+	import javax.swing.event.ChangeListener;
 
-public class PanelControlesObelo extends JPanel implements ActionListener,ChangeListener{
+	public class PanelControlesObelo extends JPanel implements ActionListener,ChangeListener{
 	private JSlider slider;
 	private JButton btnguardar,
-					btnabrir;
+			btnabrir;
 	private PanelObelo po;
 	
 	public PanelControlesObelo(PanelObelo po) {
@@ -295,10 +295,10 @@ public class PanelControlesObelo extends JPanel implements ActionListener,Change
 
 ##  Obelo Figura Marco
 
-import java.awt.Color;
-import java.awt.Graphics;
+	import java.awt.Color;
+	import java.awt.Graphics;
 
-public class ObeloFiguraMarco extends ObeloFigura{
+	public class ObeloFiguraMarco extends ObeloFigura{
 	
 	public ObeloFiguraMarco(int xIni,int yIni,int ancho,int alto) {
 		super(xIni,yIni,ancho,alto);
@@ -317,12 +317,12 @@ public class ObeloFiguraMarco extends ObeloFigura{
 
 ## Poligono
 
-import java.awt.Dimension;
-import java.awt.Graphics;
+	import java.awt.Dimension;
+	import java.awt.Graphics;
 
-import javax.swing.JPanel;
+	import javax.swing.JPanel;
 
-public class Poligono extends JPanel{
+	public class Poligono extends JPanel{
 	
 	
 	public Poligono() {
@@ -344,9 +344,9 @@ public class Poligono extends JPanel{
 
 ## Poligono Ventana
 
-import javax.swing.JFrame;
+	import javax.swing.JFrame;
 
-public class PoligonoVentana extends JFrame{
+	public class PoligonoVentana extends JFrame{
 
 	public PoligonoVentana(Poligono p) {
 		super();
