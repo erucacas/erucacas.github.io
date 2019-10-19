@@ -1,4 +1,4 @@
-### Obelo Figura
+# Obelo Figura
 
 	import java.awt.Color;
 	import java.awt.Graphics;
