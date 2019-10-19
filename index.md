@@ -1,4 +1,4 @@
-Obelo Figura
+
 
 	import java.awt.Color;
 	import java.awt.Graphics;
@@ -86,7 +86,7 @@ Obelo Figura
 
 	}
 
-### Panel Obelo
+<hr>
 
 	import java.awt.Color;
 	import java.awt.Dimension;
@@ -172,7 +172,7 @@ Obelo Figura
 	}
 
 
-### Ventana Obelo
+<hr>
 
 	import java.awt.BorderLayout;
 
@@ -199,7 +199,7 @@ Obelo Figura
 }
 
 
-### Panel Controles
+<hr>
 
 	import java.awt.Color;
 	import java.awt.event.ActionEvent;
@@ -292,8 +292,7 @@ Obelo Figura
 
 
 
-
-###  Obelo Figura Marco
+<hr>
 
 	import java.awt.Color;
 	import java.awt.Graphics;
@@ -315,7 +314,7 @@ Obelo Figura
 	
 }
 
-### Poligono
+<hr>
 
 	import java.awt.Dimension;
 	import java.awt.Graphics;
@@ -342,7 +341,7 @@ Obelo Figura
 	}
 }
 
-### Poligono Ventana
+<hr>
 
 	import javax.swing.JFrame;
 
